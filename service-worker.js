@@ -1,12 +1,12 @@
 const CACHE_NAME = 'meu-site-cache-v1';
 const FILES_TO_CACHE = [
-  '/',
-  '/index.html',
-  '/style.css',
-  '/script.js',
-  '/manifest.json',
-  '/assets/icon-192.png',
-  '/assets/icon-512.png'
+  '/meu-pwa/',
+  '/meu-pwa/index.html',
+  '/meu-pwa/style.css',
+  '/meu-pwa/script.js',
+  '/meu-pwa/manifest.json',
+  '/meu-pwa/assets/icon-192.png',
+  '/meu-pwa/assets/icon-512.png'
 ];
 
 self.addEventListener('install', event => {
